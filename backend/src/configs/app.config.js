@@ -11,7 +11,7 @@ const app = express();
 
 // CORS Options
 const corsOptions = {
-  origin: process.env.CORS_OPTIONS.split(","),
+  origin: process.env.CORS_OPTIONS.split("*"),
   credentials: true,
 };
 
