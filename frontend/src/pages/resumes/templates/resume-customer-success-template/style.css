@@ -1,0 +1,158 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 120%;
+}
+
+:root {
+  --temp-primary: var(--dark);
+  --temp-secondary: #3949ab;
+  --temp-dark: #2f2f2f;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #eaeaea;
+}
+
+.temp-content {
+  background: var(--temp-light);
+  height: 100%;
+  padding: 24pt;
+}
+h1 {
+  font-size: 28pt !important;
+  font-weight: 800 !important;
+}
+h2 {
+  font-size: 15pt !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 12pt !important;
+  font-weight: 600 !important;
+}
+.h3-style {
+  font-size: 13pt !important;
+  font-weight: 600 !important;
+}
+.h1-color {
+  color: var(--dark);
+}
+.h2-color {
+  color: var(--dark);
+}
+/* new css A.A */
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+.space-top {
+  margin-top: 30pt !important;
+}
+.mediam-space {
+  margin-top: 13pt;
+}
+.small-space {
+  margin-top: 7pt;
+}
+.skill-s {
+  display: flex !important;
+  justify-content: space-between;
+  gap: 5pt;
+}
+.lang-star svg {
+  width: 10pt;
+  /* display: flex !important; */
+  /* justify-content: flex-start !important; */
+}
+.lang-star {
+  width: 100pt;
+  color: var(--dark);
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.divider {
+  width: 50px;
+  margin: 10pt 0;
+  height: 1.5pt;
+  width: 100%;
+  background: var(--dark);
+  opacity: 1;
+}
+.divider-1 {
+  width: 50px;
+  margin: 10pt 0;
+  height: 1.5pt;
+  width: 100%;
+  background: var(--dark);
+  opacity: 1;
+}
+.divider-2 {
+  width: 100x;
+  margin: 10pt 0;
+  height: 1.5pt;
+  width: 100%;
+  background: rgb(233, 229, 229);
+  opacity: 1;
+}
+
+.hide-table {
+  display: none;
+}
+
+.call,
+.email p,
+.social a,
+.address p {
+  display: flex;
+  align-items: center;
+  gap: 5pt;
+}
+.exp-part {
+  padding-bottom: 5pt;
+}
+
+.edu-h {
+  padding-bottom: 5pt;
+}
+.edu-h-2 h5 {
+  display: flex;
+  gap: 15px;
+}
+
+/* New Table */
+.table-detail .col-1 {
+  width: 60%;
+  padding-right: 10pt;
+  padding-left: 0;
+}
+.table-detail .col-2 {
+  width: 40%;
+  padding-left: 10pt;
+}
+.company-name {
+  display: flex;
+  gap: 15pt;
+}
+.phone-e {
+  display: flex;
+  gap: 15pt;
+  padding-top: 10pt;
+}
+.emp-city {
+  display: flex;
+  gap: 15pt;
+}

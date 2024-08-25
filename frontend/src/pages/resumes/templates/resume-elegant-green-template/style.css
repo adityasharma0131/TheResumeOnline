@@ -1,0 +1,201 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 120%;
+}
+
+:root {
+  --temp-primary: var(--primary);
+  --temp-secondary: #318a78;
+  --temp-dark: #2f2f2f;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #eaeaea;
+}
+
+.temp-content {
+  background: var(--temp-light);
+  height: 100%;
+  /* padding: 24pt; */
+}
+h1 {
+  font-size: 28pt !important;
+  font-weight: 800 !important;
+}
+h2 {
+  font-size: 13pt !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 12pt !important;
+  font-weight: 600 !important;
+}
+.h3-style {
+  font-size: 13pt !important;
+  font-weight: 600 !important;
+}
+.color-h5 {
+  color: var(--temp-light);
+}
+.h1-color {
+  color: var(--temp-light);
+}
+.h2-color {
+  color: var(--temp-light);
+  text-transform: uppercase;
+}
+
+.user-profile img {
+  width: 100%;
+  border: 1px solid var(--temp-secondary);
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* new css A.A */
+.user-details {
+  background: var(--temp-secondary);
+  text-align: center;
+  padding: 15pt;
+}
+.mail-id {
+  background-color: #d2d3d5;
+  text-align: center;
+  padding: 5pt;
+  width: 100%;
+}
+.contact-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.user-name h1 {
+  font-size: 15pt !important;
+  font-weight: 500 !important;
+}
+
+.space-top {
+  margin-top: 30pt !important;
+}
+.mediam-space {
+  margin-top: 13pt;
+}
+.small-space {
+  margin-top: 7pt;
+}
+.skill-s {
+  display: flex !important;
+  justify-content: space-between;
+  gap: 5pt;
+}
+.skill-s h5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 10px;
+}
+.lang-star svg {
+  width: 10pt;
+  /* display: flex !important; */
+  /* justify-content: flex-start !important; */
+}
+.language-desc,
+.hobbie-desc h5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.divider {
+  width: 50px;
+  /* margin: 8pt 0; */
+  height: 1.5pt;
+  width: 100%;
+  background: var(--temp-secondary);
+  opacity: 1;
+}
+
+.exp-part {
+  padding-bottom: 5pt;
+}
+.user-title-bg h2 {
+  background-color: var(--temp-secondary);
+  /* width: 50%; */
+  display: inline-block;
+  padding: 5pt 10pt 5pt 5pt;
+  color: var(--temp-light);
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow at the bottom */
+}
+.left-space {
+  margin-left: 4pt;
+}
+
+.title-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-date span {
+  color: var(--temp-secondary);
+  font-size: 11pt;
+  font-weight: 500;
+}
+.user-header,
+.user-name h1 {
+  color: var(--temp-light);
+}
+/* New Table */
+.table-detail .col-1 {
+  width: 40%;
+}
+.col-1 .padding-all {
+  background-color: var(--temp-secondary);
+}
+.padding-all {
+  padding: 10pt;
+}
+.table-detail .col-2 {
+  width: 60%;
+}
+.second-section {
+  padding: 10pt 10pt 10pt 0pt;
+}
+.about-user {
+  padding: 0pt 0pt 0pt 10pt;
+}
+.company-name {
+  display: flex;
+  gap: 15pt;
+}
+.phone-e {
+  display: flex;
+  gap: 15pt;
+  padding-top: 10pt;
+}
+.emp-city {
+  display: flex;
+  gap: 15pt;
+}
+/* Perosnal details name,date ,gender */
+.pr-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.birth-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5pt;
+}

@@ -1,0 +1,205 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 100%;
+}
+
+:root {
+  --temp-primary: var(--primary);
+  --temp-secondary: #3949ab;
+  --temp-dark: #2f2f2f;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #eaeaea;
+}
+
+.temp-content .page {
+  background: var(--temp-light);
+  height: 100%;
+  padding: 24pt;
+}
+.temp-content h1 {
+  font-size: 25pt;
+  font-weight: 700;
+  color: var(--temp-primary);
+  word-break: break-word;
+}
+.temp-content h2 {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  margin-top: 5pt;
+  word-break: break-word;
+}
+
+.temp-content .divider {
+  display: block;
+  margin: 10pt 0;
+  height: 1.5pt;
+  width: 100%;
+  background: var(--temp-light-alt);
+  opacity: 1;
+}
+br {
+  content: "";
+  display: block;
+  margin: 10pt 0;
+  padding: 0;
+}
+
+.temp-content .info-container {
+  width: 100%;
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+.temp-content .info-container .contact-info {
+  width: 120pt;
+  padding-right: 15pt;
+}
+.temp-content .contact-info p,
+.temp-content .detail-info p {
+  font-size: 11pt;
+  font-weight: 400;
+  color: var(--temp-dark-alt);
+  margin-bottom: 10pt;
+  line-height: 120%;
+  word-break: break-word;
+}
+.temp-content .contact-info p span {
+  color: var(--temp-primary);
+  display: block;
+  font-size: 9pt;
+  font-weight: 600;
+  margin-bottom: 1.5pt;
+  word-break: break-word;
+}
+.temp-content .contact-info p a,
+.temp-content .detail-info p a {
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.temp-content .side-item {
+  margin: 0 0 10pt 0;
+}
+.temp-content .side-item .side-title {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+  margin-bottom: 10pt;
+  word-break: break-word;
+}
+.temp-content .side-item .side-item-point {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5pt;
+  margin-bottom: 3pt;
+  word-break: break-word;
+}
+.temp-content .side-item .side-item-point span,
+.temp-content .side-item .side-item-point a,
+.temp-content .side-item .side-item-point-down span,
+.temp-content .side-item .side-item-point-down a {
+  font-size: 9pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  word-break: break-word;
+}
+.temp-content .side-item .side-item-point svg {
+  font-size: 5pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+}
+.temp-content .side-item .side-item-point .side-item-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3pt;
+}
+.temp-content .side-item .side-item-point-down {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10pt;
+}
+.temp-content .side-item .side-item-point-down span {
+  margin-bottom: 5pt;
+}
+.temp-content .side-item .side-item-point-down b {
+  font-size: 10pt;
+  font-weight: 500;
+  color: var(--temp-primary);
+  display: block;
+}
+
+.temp-content .info-container .detail-info {
+  width: 100%;
+  height: 100%;
+  padding-left: 15pt;
+  border-left: 1pt solid var(--temp-light-alt);
+}
+
+.temp-heading {
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  margin-bottom: 10pt;
+  word-break: break-word;
+}
+
+.temp-section {
+  margin: 10pt 0 20pt 0;
+}
+.temp-content .detail-info .temp-item {
+  margin: 0 0 5pt 0;
+  border-bottom: 1pt solid var(--temp-light-alt);
+}
+.temp-content .detail-info .temp-item:last-child {
+  margin: 0 0 0 0;
+  border-bottom: 0;
+}
+.temp-item .temp-item-head {
+  margin-bottom: 5pt;
+}
+.temp-item .temp-item-head h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5pt;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h5 b {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h5 span {
+  font-size: 7pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  text-transform: capitalize;
+  word-break: break-word;
+}

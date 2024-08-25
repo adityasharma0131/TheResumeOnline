@@ -1,0 +1,230 @@
+/* Import Styles */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 100%;
+}
+
+:root {
+  --temp-primary: #2c537d;
+  --temp-secondary: #3949ab;
+  --temp-dark: #2f2f2f;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #f7f5f8;
+}
+
+.temp-content {
+  background: var(--temp-light);
+  height: 100%;
+  padding: 24pt;
+  font-family: "Raleway", sans-serif;
+}
+.temp-content p {
+  font-size: 11pt;
+  line-height: 130%;
+  color: var(--temp-dark-alt);
+  word-break: break-word;
+}
+
+/* Headings */
+.temp-title {
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+  text-transform: uppercase;
+  line-height: 140%;
+  word-break: break-word;
+}
+.temp-heading {
+  font-size: 20pt;
+  font-weight: 700;
+  color: var(--temp-primary);
+  word-break: break-word;
+}
+.temp-sub-heading {
+  font-size: 12pt;
+  font-weight: 500;
+  color: var(--temp-primary);
+  margin: 5pt 0 10pt;
+  word-break: break-word;
+}
+.temp-divider {
+  margin: 10pt 0;
+  height: 0.5pt;
+  width: 100%;
+  background: var(--temp-dark-alt);
+  opacity: 0.5;
+}
+.temp-spacer {
+  padding: 10pt 0;
+  height: auto;
+  width: 100%;
+}
+
+/* Templates */
+.temp-head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15pt;
+}
+.temp-head .image {
+  width: 80pt;
+  height: 80pt;
+}
+.temp-head .text {
+  width: calc(100% - 95pt);
+}
+.temp-head .text .info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10pt;
+  flex-wrap: wrap;
+}
+.temp-head .text .info p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2pt;
+  word-break: break-word;
+}
+.temp-head .text .info svg {
+  font-size: 10pt;
+  color: var(--temp-primary);
+}
+.temp-head .text .info span {
+  font-size: 10pt;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.temp-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15pt;
+  width: 100%;
+}
+.temp-section .temp-col:nth-child(1) {
+  width: 150pt;
+}
+.temp-section .temp-col:nth-child(2) {
+  width: calc(100% - 165pt);
+}
+
+.temp-section .temp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15pt;
+}
+.temp-section .item-point span,
+.temp-section a {
+  font-size: 10pt;
+  font-weight: 600;
+  word-break: break-word;
+}
+.temp-section .item-point .item-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3pt;
+}
+.temp-section .item-point .item-rating svg {
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+}
+
+.temp-section .temp-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5pt;
+}
+.temp-section .item-point-down {
+  margin-bottom: 15pt;
+}
+.temp-section .item-point-down span,
+.temp-section .item-point-down a {
+  font-size: 10pt;
+  font-weight: 500;
+  display: block;
+  line-height: 100%;
+  margin-bottom: 10pt;
+}
+.temp-section .item-point-down b {
+  color: var(--temp-primary);
+  font-size: 10pt;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 3pt;
+}
+.temp-section .temp-contact-info {
+  line-height: 100%;
+  margin-bottom: 10pt;
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+}
+.temp-section .temp-contact-info span {
+  color: var(--temp-dark-alt);
+  margin-top: 3pt;
+  font-size: 10pt;
+  font-weight: 500;
+  display: block;
+}
+
+.temp-section .temp-item {
+  padding-bottom: 5pt;
+  margin: 0 0 8pt 0;
+}
+.temp-section .temp-item:last-child {
+  margin: 0 0 0 0;
+}
+.temp-section .temp-item .temp-item-head {
+  margin-bottom: 5pt;
+}
+.temp-section .temp-item .temp-item-head h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3pt;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h5 b {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h5 span {
+  font-size: 8pt;
+  font-weight: 700;
+  color: var(--temp-primary);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+  text-transform: capitalize;
+  word-break: break-word;
+}

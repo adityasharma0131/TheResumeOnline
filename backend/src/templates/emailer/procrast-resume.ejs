@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheResumes.Online - Stop Procrastinating</title>
+  </head>
+  <body
+    style="
+      background: #f3f3f3;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    "
+  >
+    <div
+      style="
+        width: auto;
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fffef9;
+      "
+    >
+      <a
+        href="https://theresumes.online"
+        style="
+          display: block;
+          width: auto;
+          max-width: 200px;
+          overflow: hidden;
+          margin: 0 auto 20px;
+        "
+      >
+        <img
+          src="https://theresumes.online/src/static/emailer/logo.png"
+          alt="TheResumes.Online"
+          style="
+            width: 100%;
+            height: auto;
+            object-position: center;
+            object-fit: contain;
+          "
+        />
+      </a>
+
+      <div style="background: #f3f3f3">
+        <div class="image" style="width: 100%; height: 100%; overflow: hidden">
+          <img
+            src="https://theresumes.online/src/static/emailer/banners/03.jpg"
+            alt=""
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div style="padding: 15px">
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #333333;
+              margin-bottom: 10px;
+            "
+          >
+            <b>Hi <%= name %>,</b>
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #666666;
+              margin-bottom: 10px;
+            "
+          >
+            Your resume is off to a great start! Take the next step with our
+            easy-to-use TheResumes to show you're the best candidate for the
+            job. With TheResumes, you can:
+          </p>
+          <ol
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #666666;
+              margin-bottom: 10px;
+              padding-left: 20px;
+            "
+          >
+            <li style="margin-bottom: 10px">
+              Emphasize your achievements and results.
+            </li>
+            <li style="margin-bottom: 10px">
+              Customize your resume to precisely fit the criteria of each job,
+              amplifying your chances of landing the position.
+            </li>
+            <li style="margin-bottom: 10px">
+              Overcome writer's block using AI-generated prompts
+            </li>
+          </ol>
+          <a
+            href="<%= resetLink %>"
+            style="
+              background: #78ba97;
+              color: #ffffff;
+              display: inline-block;
+              padding: 10px;
+              text-decoration: none;
+              border-radius: 5px;
+            "
+            >Finish My Link</a
+          >
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #666666;
+              margin-bottom: 10px;
+            "
+          >
+            Thank you,
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #666666;
+              margin-bottom: 10px;
+            "
+          >
+            TheResumes.Online
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-top: 30px; text-align: center">
+        <div style="margin: 0 auto 30px; text-align: center">
+          <a
+            href="https://www.facebook.com/theresumes.online"
+            target="_blank"
+            style="text-decoration: none; margin: 0 3px"
+          >
+            <img
+              src="https://theresumes.online/src/static/emailer/social/fb.png"
+              style="width: 40px"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/theresumes.online/"
+            target="_blank"
+            style="text-decoration: none; margin: 0 3px"
+          >
+            <img
+              src="https://theresumes.online/src/static/emailer/social/ig.png"
+              style="width: 40px; margin: 0 3px"
+            />
+          </a>
+          <a
+            href="https://x.com/the_resumes"
+            target="_blank"
+            style="text-decoration: none; margin: 0 3px"
+          >
+            <img
+              src="https://theresumes.online/src/static/emailer/social/x.png"
+              style="width: 40px"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/showcase/theresumes/about/"
+            target="_blank"
+            style="text-decoration: none; margin: 0 3px"
+          >
+            <img
+              src="https://theresumes.online/src/static/emailer/social/in.png"
+              style="width: 40px"
+            />
+          </a>
+        </div>
+
+        <p style="font-size: 12px; color: #666666">
+          To make sure you continue receiving our newsletters, add
+          <a
+            href="mailto:newsletter@theresumes.online"
+            style="text-decoration: none; font-weight: 600; color: #333333"
+            >newsletter&#64;theresumes.online</a
+          >
+          to your address book.
+        </p>
+
+        <p style="font-size: 10px; color: #666666">
+          <a
+            href="https://theresumes.online/unsubscribe/<%= encodeURIComponent(_id) %>"
+            style="text-decoration: none; font-weight: 600; color: #333333"
+            >Unsubscribe</a
+          >
+        </p>
+
+        <p style="font-size: 12px; color: #666666">
+          <a
+            href="https://theresumes.online"
+            style="text-decoration: none; font-weight: 600; color: #333333"
+            >theresumes.online</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 100%;
+}
+
+:root {
+  --temp-primary: #2b3e4d;
+  --temp-secondary: #6cb8ff;
+  --temp-dark: #2f2f2f;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #f7f5f8;
+}
+
+.temp-content {
+  background: var(--temp-light);
+  height: 100%;
+}
+.temp-content table {
+  width: 100%;
+  height: 100%;
+}
+.temp-content table tr td {
+  padding: 15pt;
+  vertical-align: top;
+  height: 100%;
+}
+.temp-content table tr td:nth-child(1) {
+  width: 175pt;
+  background: var(--temp-primary);
+}
+.temp-content table tr td:nth-child(2) {
+  width: calc(100% - 175pt);
+}
+.temp-content p {
+  font-size: 11pt;
+  line-height: 130%;
+  color: var(--temp-dark-alt);
+  word-break: break-word;
+}
+
+/* Headings */
+.temp-title {
+  font-size: 14pt;
+  font-weight: 600;
+  color: var(--temp-primary);
+}
+.temp-heading {
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--temp-secondary);
+  text-align: center;
+}
+.temp-sub-heading {
+  font-size: 12pt;
+  font-weight: 500;
+  color: var(--temp-light-alt);
+  margin: 5pt 0 0;
+  text-align: center;
+}
+.temp-divider {
+  margin: 5pt 0 7pt;
+  height: 1pt;
+  width: 100%;
+  background: var(--temp-light-alt);
+  opacity: 0.5;
+}
+.temp-sidebar .temp-divider {
+  opacity: 0.2;
+  background: var(--temp-light);
+}
+.temp-spacer {
+  padding: 10pt 0;
+  height: auto;
+  width: 100%;
+}
+.temp-sidebar .temp-spacer {
+  padding: 5pt 0;
+  height: auto;
+  width: 100%;
+}
+
+/* Section */
+.temp-section .temp-item {
+  padding-bottom: 5pt;
+  margin: 0 0 8pt 0;
+}
+.temp-section .temp-item:last-child {
+  margin: 0 0 0 0;
+}
+.temp-section .temp-item .temp-item-head {
+  margin-bottom: 5pt;
+}
+.temp-section .temp-item .temp-item-head h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3pt;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h5 b {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h5 span {
+  font-size: 8pt;
+  font-weight: 700;
+  color: var(--temp-secondary);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.temp-item .temp-item-head h6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--temp-secondary);
+  text-transform: capitalize;
+  word-break: break-word;
+}
+
+/* Sidebar */
+.temp-sidebar .temp-title,
+.temp-sidebar p {
+  color: var(--temp-light);
+}
+.temp-sidebar .temp-contact-info {
+  font-size: 9pt;
+  font-weight: 600;
+  color: var(--temp-secondary);
+  margin-bottom: 7pt;
+}
+.temp-sidebar .temp-contact-info span {
+  font-size: 10pt;
+  font-weight: 500;
+  color: var(--temp-light);
+  line-height: 120%;
+  word-break: break-word;
+  display: block;
+}
+.temp-sidebar .temp-cont-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10pt;
+  margin-bottom: 10pt;
+}
+.temp-sidebar .temp-cont-icon svg {
+  width: 12pt;
+  height: 12pt;
+  color: var(--temp-secondary);
+}
+.temp-sidebar .temp-cont-icon span {
+  width: calc(100% - 22pt);
+  color: var(--temp-light);
+}
+
+.temp-sidebar .side-item {
+  margin: 0 0 10pt 0;
+}
+.temp-sidebar .side-item .side-item-point {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5pt;
+  margin-bottom: 3pt;
+  word-break: break-word;
+}
+.temp-sidebar .side-item .side-item-point span,
+.temp-sidebar .side-item .side-item-point a,
+.temp-sidebar .side-item .side-item-point-down span,
+.temp-sidebar .side-item .side-item-point-down a {
+  font-size: 9pt;
+  font-weight: 600;
+  color: var(--temp-light);
+  word-break: break-word;
+}
+.temp-sidebar .side-item .side-item-point svg {
+  font-size: 5pt;
+  font-weight: 600;
+  color: var(--temp-secondary);
+}
+.temp-sidebar .side-item .side-item-point .side-item-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3pt;
+  width: 40pt;
+}
+.temp-sidebar .side-item .side-item-point-down {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7pt;
+}
+.temp-sidebar .side-item .side-item-point-down span,
+.temp-sidebar .side-item .side-item-point-down a {
+  margin-bottom: 5pt;
+}
+.temp-sidebar .side-item .side-item-point-down b {
+  font-size: 10pt;
+  font-weight: 500;
+  color: var(--temp-secondary);
+  display: block;
+  line-height: 100%;
+}

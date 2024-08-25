@@ -1,0 +1,173 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 120%;
+}
+
+:root {
+  --temp-primary: var(--primary);
+  --temp-secondary: #3949ab;
+  --temp-dark: #00504f;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #eaeaea;
+}
+.Header-part {
+  background: #00504f;
+  padding: 24pt;
+  color: white !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-detail .col-1 {
+  width: 30%;
+  padding-left: 20pt;
+  padding-right: 20px;
+}
+.table-detail .col-2 {
+  width: 60%;
+  padding-right: 20pt;
+}
+.exp-title {
+  display: flex;
+  justify-content: space-between;
+}
+.temp-content {
+  background: var(--temp-light);
+  height: 100%;
+  /* padding: 24pt !important; */
+}
+h1 {
+  font-size: 28pt !important;
+  font-weight: 800 !important;
+}
+h2 {
+  font-size: 15pt !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 12pt !important;
+  font-weight: 600 !important;
+}
+.h3-style {
+  font-size: 13pt !important;
+  font-weight: 600 !important;
+}
+.h1-color {
+  color: white;
+}
+.h2-color {
+  color: var(--temp-dark);
+}
+/* new css A.A */
+.college-name {
+  display: flex;
+  gap: 20pt;
+}
+
+.space-top {
+  margin-top: 30pt !important;
+}
+.mediam-space {
+  margin-top: 13pt;
+}
+.small-space {
+  margin-top: 5pt;
+}
+
+.divider {
+  width: 50px;
+  margin: 5pt 0;
+  height: 1.5pt;
+  width: 100%;
+  background: var(--temp-dark);
+  opacity: 1;
+}
+
+.call,
+.email p,
+.social a,
+.address p {
+  display: flex;
+  align-items: center;
+  gap: 5pt;
+}
+
+.temp-item-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-s {
+  display: flex;
+  gap: 50pt;
+}
+.lang-star {
+  display: flex;
+}
+.skill h5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.hobbies h5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.emp-city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lang-star {
+  width: 100%;
+  width: 100pt;
+  color: var(--temp-dark);
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+.education-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intern-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temp-contact-info {
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--temp-dark);
+  margin-bottom: 5pt;
+}
+.temp-contact-info span {
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--temp-dark-alt);
+  display: block;
+}

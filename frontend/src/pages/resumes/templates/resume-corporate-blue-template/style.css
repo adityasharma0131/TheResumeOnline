@@ -1,0 +1,239 @@
+/* Resetting Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 120%;
+}
+
+:root {
+  --temp-primary: var(--primary);
+  --temp-secondary: #7a9bce;
+  --temp-dark: black;
+  --temp-dark-alt: #7a7777;
+  --temp-light: #ffffff;
+  --temp-light-alt: #eaeaea;
+}
+
+.temp-content {
+  background: var(--temp-light);
+  height: 100%;
+  padding: 24pt;
+}
+h1 {
+  font-size: 28pt !important;
+  font-weight: 800 !important;
+}
+h2 {
+  font-size: 12pt !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 12pt !important;
+  font-weight: 600 !important;
+}
+h6 {
+  font-size: 11pt !important;
+  font-weight: 500 !important;
+}
+.h6-color {
+  color: var(--temp-secondary);
+}
+.h3-style {
+  font-size: 13pt !important;
+  font-weight: 600 !important;
+}
+p {
+  font-size: 12pt;
+  font-weight: 400;
+}
+span {
+  font-size: 13pt;
+  font-weight: 500;
+}
+.h1-color {
+  color: var(--temp-secondary);
+}
+.h2-color {
+  color: var(--temp-light);
+}
+.h3-color {
+  color: var(--temp-light);
+}
+/* new css A.A */
+.user-contact-details,
+.user-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50pt;
+}
+
+.space-top {
+  margin-top: 30pt !important;
+}
+.mediam-space {
+  margin-top: 13pt;
+}
+.small-space {
+  margin-top: 7pt;
+}
+
+.skill-s h5 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.hobbie-part h5 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.social-part,
+.language-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.lang-star svg {
+  width: 10pt;
+}
+.lang-star {
+  width: 100pt;
+  color: var(--temp-secondary);
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.divider {
+  width: 50pt;
+  /* margin: 10pt 0; */
+  height: 1.5pt;
+  width: 100%;
+  background: var(--temp-dark-alt);
+  opacity: 1;
+}
+
+.call,
+.email p,
+.social a,
+.address p {
+  display: flex;
+  align-items: center;
+  gap: 0pt;
+}
+
+/* New Table */
+.table-detail .col-1 {
+  width: 60%;
+  padding-right: 10pt;
+}
+.table-detail .col-2 {
+  width: 40%;
+  padding-left: 10pt;
+}
+/* experiance table */
+.col-first {
+  width: 200pt;
+  padding-right: 10pt;
+}
+.col-second {
+  width: calc(100%-200pt);
+  /* padding-left: 20pt; */
+  padding-right: 10pt;
+}
+.experience-tabel {
+  display: flex;
+  align-items: center;
+}
+/* new css */
+.user-box {
+  border: 1pt solid var(--temp-dark-alt);
+  padding: 30pt 0pt;
+  position: relative;
+}
+.user-box h1 {
+  text-align: center;
+}
+.user-details {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  /* display: flex; */
+}
+.User-job-title {
+  position: absolute;
+  left: 50%;
+  top: -20pt;
+  transform: translateX(-50%);
+  width: 80%;
+  background-color: var(--temp-secondary);
+  padding: 5pt;
+}
+.user-contact-details {
+  padding-top: 20pt;
+}
+.summary-title hr {
+  display: block;
+}
+.summary-title h2,
+.education-title h2,
+.experience-title h2,
+.skill-title h2,
+.hobbies-title h2,
+.reference-title h2,
+.extra-title h2,
+.language-title h2 {
+  background: var(--temp-secondary) !important;
+  /* width: 80%; */
+  margin: 0pt;
+  padding: 2pt;
+  text-align: center;
+  display: inline-block;
+}
+
+td .item p {
+  border-right: 1pt solid var(--temp-dark-alt);
+  padding-right: 5pt;
+}
+
+.experience-position {
+  display: flex;
+  gap: 5pt;
+}
+.exp-desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2pt;
+}
+.skill {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  /* width: 100%; */
+}
+
+.reference-details {
+  display: flex;
+  gap: 30pt;
+}
+.pr-details {
+  display: flex;
+  gap: 10pt;
+}
+.pr-section {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1s0pt;
+  width: 100%;
+}
